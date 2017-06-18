@@ -1,0 +1,97 @@
+*{
+    font-family: sans-serif ;
+
+  }
+    #editTDF{
+      width:30%;
+      margin-left: 0%;
+    }
+
+    #editTDF.modif{
+      display: none;
+    }
+
+    html{
+      text-align: center;
+    }
+
+    h1{
+      text-align: left;
+      background-color: #AEB9A2;
+      padding-top: 1%;
+      padding-bottom: 3%;
+    }
+
+    p{
+      text-decoration: underline;
+    }
+
+    img {
+	  max-width: 75%;
+	  height: auto;
+      padding-left: 10%;
+    }
+
+    #photo{
+    text-align: left;
+    height:15%;
+    display: block;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
+    flex-basis: 49%;
+    padding-right: 1%;
+    max-width: 14em;
+    }
+
+    #tex{
+        width: 30%;
+        text-align: left;
+    }
+
+    #butt{
+      background-color: #C0D7C0; /*#889D87*/
+      padding: 4px;
+      font-weight: bold;
+      font-size: medium;
+    }
+
+    button, #edibutt{
+      background-color: #C0D7C0;
+      padding: 4px;
+      font-weight: bold;
+      font-size: medium;
+      color: grey;
+    }
+
+    #butt:hover{
+      color: black;
+      background-color: #C0D7C0;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    #edibutt:hover, button:hover{
+        background-color: #BDE8BD;
+        color: black;
+      }
+
+    ul{
+      list-style-type: square;
+      text-align: left;
+      margin-left: 5%;
+    }
+
+    span{
+      padding: 4px;
+      width: 50px;
+      border:1px solid grey;
+    }
+
+    span{
+      float: left;
+      display: inline-box;
+      width: 65%;
+      padding-left: 10px;
+    }
+ 

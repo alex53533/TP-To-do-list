@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todolist.css"/>
+  </head>
+    <body>
+     <main>
+      <h1>Ma To do list</h1>
+      <div id="photo"><img src="log.png" alt="logo To do list">
+      </div>
+        <p>Barre de tâche :<p>
+         <div id="divTDL">
+           <input type="text" id="tex" placeholder="Entrez une tâche à afficher" />
+           <input type="button" id="butt" value="Ajouter à la liste"/>
+        </div>
+      <div id="editTDF" class="modif">
+          <input type="text" id="editext" placeholder="Modifier la tâche" />
+          <input type="button" id="edibutt" value="ok"/>
+      </div>
+          <ul id="tasksList">
+          </ul>
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <script type="text/javascript" src="todolist.js"></script>
+     </main>
+    </body>
+</html>
