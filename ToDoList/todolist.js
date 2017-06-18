@@ -9,7 +9,7 @@
            adtach(tabl[i].content);
            }
     }
-                  $('#butt');                            //Renvoie élément
+                  $('#butt');                            //Renvoi élément
                   $('#tex');
                   $('#edibutt');
                   $('#editext');
